@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Projeto JARVIS</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: #00c8ff;
+            text-align: center;
+        }
+
+        .tela {
+            min-height: 100vh;
+            padding: 30px;
+            background-image: url("image(91).png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .caixa {
+            max-width: 800px;
+            margin: auto;
+            padding: 25px;
+            border: 2px solid #00c8ff;
+            background-color: rgba(0, 20, 35, 0.75);
+            box-shadow: 0 0 25px #00c8ff;
+            border-radius: 15px;
+        }
+
+        .logo {
+            width: 170px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 48px;
+            letter-spacing: 8px;
+            margin: 10px 0;
+            color: #00eaff;
+            text-shadow: 0 0 15px #00c8ff;
+        }
+
+        .subtitulo {
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .painel {
+            width: 260px;
+            height: 260px;
+            margin: 30px auto;
+            border-radius: 50%;
+            border: 5px solid #00c8ff;
+            box-shadow: 0 0 30px #00c8ff;
+            background-color: rgba(0, 180, 255, 0.10);
+            position: relative;
+        }
+
+        .menu {
+            margin-top: 25px;
+        }
+
+        .botao {
+            width: 280px;
+            margin: 10px auto;
+            padding: 12px;
+            border: 1px solid #00c8ff;
+            background-color: rgba(0, 50, 80, 0.8);
+            color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #005f7a;
+        }
+
+        .botao:hover {
+            background-color: #00c8ff;
+            color: black;
+        }
+
+        input {
+            margin-top: 20px;
+            width: 280px;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #00c8ff;
+            background-color: black;
+            color: #00eaff;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tela">
+        <div class="caixa">
+
+            <img src="jarvis.png" class="logo">
+
+            <h1>JARVIS</h1>
+            <p class="subtitulo">Interface de Controle</p>
+
+            <div class="menu">
+                <div class="botao">💡 Status</div>
+                <div class="botao">⚪ Movimento</div>
+                <div class="botao">📡 Sinal da Buzina</div>
+                <div class="botao">📟 Teste Acionamento</div>
+                <div class="botao">🛑 PARAR Tudo</div>
+            </div>
+
+            <input type="text" placeholder="Histórico">
+
+        </div>
+    </div>
+</body>
+</html>
